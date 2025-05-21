@@ -1,5 +1,6 @@
 package us.donut.skuniversal.plotsquared;
 
+import com.plotsquared.bukkit.player.BukkitPlayer;
 import com.plotsquared.core.events.PlayerClaimPlotEvent;
 import com.plotsquared.core.plot.Plot;
 import org.bukkit.event.Cancellable;
