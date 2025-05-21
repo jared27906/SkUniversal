@@ -25,4 +25,8 @@ public class BukkitClaimPlotEvent extends BukkitPlotEvent implements Cancellable
     public Plot getPlot() {
         return event.getPlot();
     }
+
+    public Player getPlayer() {
+        return ((BukkitPlayer) event.getPlotPlayer()).player;
+    }
 }
